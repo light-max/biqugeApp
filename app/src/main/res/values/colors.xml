@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryVariant">#00695C</color>
+    <color name="colorOnPrimary">#FEF9EF</color>
+
+    <color name="colorLightBG">#FDF6E3</color>
+    <color name="colorDarkBG">#1E1E1E</color>
+    <color name="colorLightTC">#333333</color>
+    <color name="colorDarkTC">#D4D4D4</color>
+
+    <integer-array name="textColors">
+        <item>0xff585858</item>
+        <item>0xffABB2BF</item>
+        <item>0xffD4D4D4</item>
+        <item>0xff333333</item>
+        <item>0xffD3AF86</item>
+    </integer-array>
+
+    <integer-array name="backgroundColors">
+        <item>0xffFDF6E3</item>
+        <item>0xff222322</item>
+        <item>0xff282C34</item>
+        <item>0xff1E1E1E</item>
+        <item>0xffF5F5F5</item>
+        <item>0xff221A0F</item>
+    </integer-array>
+</resources>

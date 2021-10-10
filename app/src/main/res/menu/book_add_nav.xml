@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/recommend"
+        android:icon="@drawable/ic_recommend"
+        android:title="推荐" />
+    <item
+        android:id="@+id/ranking"
+        android:icon="@drawable/ic_ranking"
+        android:title="排行" />
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/ic_category"
+        android:title="分类" />
+</menu>

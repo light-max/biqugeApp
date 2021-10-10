@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="sp14">14sp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="sp18">18sp</dimen>
+    <dimen name="sp20">20sp</dimen>
+    <dimen name="sp24">24sp</dimen>
+    <dimen name="sp26">26sp</dimen>
+    <dimen name="sp28">28sp</dimen>
+    <dimen name="sp30">30sp</dimen>
+    <dimen name="sp32">32sp</dimen>
+    <dimen name="sp36">36sp</dimen>
+    <dimen name="sp40">40sp</dimen>
+    <dimen name="sp48">48sp</dimen>
+    <dimen name="sp52">52sp</dimen>
+    <dimen name="sp56">56sp</dimen>
+    <dimen name="sp60">60sp</dimen>
+    <dimen name="sp64">64sp</dimen>
+
+    <string-array name="font_number">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>36</item>
+        <item>40</item>
+        <item>48</item>
+        <item>52</item>
+        <item>56</item>
+        <item>60</item>
+        <item>64</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+package com.lifengqiang.biquge.ui.bookadd.category;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import com.lifengqiang.biquge.R;
+import com.lifengqiang.biquge.base.fragment.BaseFragment;
+
+public class CategoryFragment extends BaseFragment<CategoryModel, CategoryView, CategoryPresenter> {
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_book_category, container, false);
+    }
+}

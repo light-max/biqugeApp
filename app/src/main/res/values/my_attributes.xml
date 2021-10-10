@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageFlipTextView">
+        <attr name="android:textSize" format="dimension" />
+        <attr name="android:textColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="SimpleColorPickerView">
+        <attr name="plateSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ChapterPositionBar">
+        <attr name="android:scrollbarSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="VerticalSeekBar">
+        <attr name="android:scrollbarSize" format="dimension" />
+    </declare-styleable>
+</resources>
