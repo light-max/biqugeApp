@@ -5,6 +5,7 @@
     <dimen name="sp16">16sp</dimen>
     <dimen name="sp18">18sp</dimen>
     <dimen name="sp20">20sp</dimen>
+    <dimen name="sp22">22sp</dimen>
     <dimen name="sp24">24sp</dimen>
     <dimen name="sp26">26sp</dimen>
     <dimen name="sp28">28sp</dimen>
@@ -24,6 +25,7 @@
         <item>16</item>
         <item>18</item>
         <item>20</item>
+        <item>22</item>
         <item>24</item>
         <item>26</item>
         <item>28</item>

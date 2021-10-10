@@ -106,7 +106,7 @@ public class ChapterControllerView extends LinearLayout {
         String[] fontNumberTextArray = getResources().getStringArray(R.array.font_number);
         int[] fontNumberIdArray = new int[]{
                 R.dimen.sp12, R.dimen.sp14, R.dimen.sp16, R.dimen.sp18,
-                R.dimen.sp20, R.dimen.sp24, R.dimen.sp26, R.dimen.sp28,
+                R.dimen.sp20, R.dimen.sp22, R.dimen.sp24, R.dimen.sp26, R.dimen.sp28,
                 R.dimen.sp30, R.dimen.sp32, R.dimen.sp36,
                 R.dimen.sp40, R.dimen.sp48,
                 R.dimen.sp52, R.dimen.sp56,
@@ -115,7 +115,7 @@ public class ChapterControllerView extends LinearLayout {
         String fontNumberIndex = "fontNumberIndex";
         reader.getFontSizeReduceButton().setOnClickListener(v -> {
             SharedPreferences sp = getThemesSharedPreferences();
-            int index = sp.getInt(fontNumberIndex, 4);
+            int index = sp.getInt(fontNumberIndex, 5);
             if (index > 0) {
                 --index;
                 sp.edit().putInt(fontNumberIndex, index).apply();
