@@ -111,8 +111,11 @@ public class BookShelfLoadUtils {
                     e.printStackTrace();
                 }
             } else {
+                BookShelf shelf = new BookShelf();
+                shelf.setLastUpdateTime(System.currentTimeMillis());
+                shelf.writeToFile(file);
                 utils.mainHandler.post(() -> {
-                    call.call(null, null);
+                    call.call(shelf.getLastUpdateTime(), null);
                 });
             }
         });

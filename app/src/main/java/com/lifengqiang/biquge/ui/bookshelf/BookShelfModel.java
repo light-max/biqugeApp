@@ -30,6 +30,7 @@ public class BookShelfModel extends BaseModel {
         BookShelfLoadUtils.readBooks((shelf, s) -> {
             if (shelf != null) {
                 getBookShelf().postValue(shelf);
+                System.out.println("shelf:" + shelf);
             }
         });
     }
