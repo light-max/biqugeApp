@@ -78,12 +78,25 @@ public class ChapterContentParser extends ContentParser {
         });
     }
 
+    private Pair<String, Integer> getNotNullChapter(String chapterUrl) {
+        Pair<String, Integer> pair = titleMap.get(chapterUrl);
+        if (pair == null) {
+            pair = titleMap.get(BiqugeApi.url(chapterUrl));
+        }
+        if (pair == null) {
+            pair = new Pair<>("", 0);
+        }
+        return pair;
+    }
+
     public String getChapterName(String chapterUrl) {
-        return titleMap.get(BiqugeApi.url(chapterUrl)).first;
+        return getNotNullChapter(chapterUrl).first;
+//        return titleMap.get(BiqugeApi.url(chapterUrl)).first;
     }
 
     public int indexOfChapter(String chapterUrl) {
-        return titleMap.get(BiqugeApi.url(chapterUrl)).second;
+        return getNotNullChapter(chapterUrl).second;
+//        return titleMap.get(BiqugeApi.url(chapterUrl)).second;
     }
 
     public BookChapter getChapter() {
