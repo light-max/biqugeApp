@@ -4,8 +4,10 @@ import com.lifengqiang.biquge.net.request.Method;
 import com.lifengqiang.biquge.net.request.RequestBuilder;
 
 public class BiqugeApi {
-    private static final String baseUrl = "http://www.biquw.com";
+    public static final String baseUrl = "http://www.biquw.info";
     private static final String mBaseUrl = "http://m.biquw.com";
+
+    public static final String oldBaseUrl = "http://www.biquw.com";
 
     public static RequestBuilder home() {
         return BiqugeRequest.get("/");

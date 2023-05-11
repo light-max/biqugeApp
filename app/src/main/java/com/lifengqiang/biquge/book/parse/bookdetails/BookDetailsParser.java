@@ -2,6 +2,7 @@ package com.lifengqiang.biquge.book.parse.bookdetails;
 
 import com.lifengqiang.biquge.async.Async;
 import com.lifengqiang.biquge.data.BookDetails;
+import com.lifengqiang.biquge.net.BiqugeApi;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -92,6 +93,9 @@ public abstract class BookDetailsParser {
                 } else {
                     node.url = String.format("%s/%s", book.url, node.url);
                 }
+            }
+            if (!node.url.startsWith("http://")){
+                node.url = BiqugeApi.url(node.url);
             }
             nodes.add(node);
         }
